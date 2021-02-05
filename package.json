@@ -1,5 +1,5 @@
 {
-  "name": "@henkkin/TestNpm",
+  "name": "@henkkin/testnpm",
   "version": "0.1.1",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -16,7 +16,7 @@
     "package": "npm run build && npm pack",
     "test": "jest",
     "test:cov": "jest --coverage",
-    "addscope": "node tools/packagejson name @henkkin/TestNpm && prettier --write package.json"
+    "addscope": "node tools/packagejson name @henkkin/testnpm && prettier --write package.json"
   },
   "publishConfig": {
     "access": "public"
@@ -39,13 +39,13 @@
   ],
   "author": "Henk Kin <github@henkkin.nl>",
   "license": "MIT",
-  "homepage": "https://github.com/henkkin/TestNpm",
+  "homepage": "https://github.com/henkkin/testnpm",
   "repository": {
     "type": "git",
-    "url": "git@github.com:henkkin/TestNpm.git"
+    "url": "git@github.com:henkkin/testnpm.git"
   },
   "bugs": {
-    "url": "https://github.com/henkkin/TestNpm/issues"
+    "url": "https://github.com/henkkin/testnpm/issues"
   },
   "dependencies": {},
   "devDependencies": {
