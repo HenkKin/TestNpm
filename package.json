@@ -1,5 +1,5 @@
 {
-  "name": "example-typescript-package",
+  "name": "@henkkin/test-npm",
   "version": "0.1.1",
   "description": "",
   "main": "dist/cjs/index.js",
@@ -16,7 +16,7 @@
     "package": "npm run build && npm pack",
     "test": "jest",
     "test:cov": "jest --coverage",
-    "addscope": "node tools/packagejson name @tomchen/example-typescript-package && prettier --write package.json"
+    "addscope": "node tools/packagejson name @henkkin/test-npm && prettier --write package.json"
   },
   "publishConfig": {
     "access": "public"
@@ -37,15 +37,15 @@
     "esm",
     "umd"
   ],
-  "author": "Tom Chen <tomchen.org@gmail.com>",
+  "author": "Henk Kin <github@henkkin.nl>",
   "license": "MIT",
-  "homepage": "https://github.com/tomchen/example-typescript-package",
+  "homepage": "https://github.com/henkkin/test-npm",
   "repository": {
     "type": "git",
-    "url": "git@github.com:tomchen/example-typescript-package.git"
+    "url": "git@github.com:henkkin/test-npm.git"
   },
   "bugs": {
-    "url": "https://github.com/tomchen/example-typescript-package/issues"
+    "url": "https://github.com/henkkin/test-npm/issues"
   },
   "dependencies": {},
   "devDependencies": {
