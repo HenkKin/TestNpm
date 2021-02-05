@@ -28,7 +28,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
-          scope: '@henkkin'  
       - name: Install modules
         run: yarn
       - name: Run tests
